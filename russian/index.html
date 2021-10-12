@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Noolkmvm</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/plugins/font-awesome/css/all.css">
+    <link id="theme-style" rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="sidebar-wrapper">
+        <div class="profile-container">
+            <img class="avatar" src="../assets/images/profile.jpeg" alt="profile picture"/>
+            <h1 class="name">Филипп Плющев</h1>
+            <h3 class="tagline">Backend PHP Developer</h3>
+        </div>
+        <div class="contact-container container-block">
+            <ul class="list-unstyled contact-list">
+                <li class="email"><i class="fa fa-envelope fa-lg"></i>
+                    <a href="mailto:noolkmvm@gmail.com">noolkmvm@gmail.com</a>
+                </li>
+                <li class="telegram"><i class="fa fa-telegram fa-lg"></i>
+                    <a href="https://t.me/noolkmvm" target="_blank">@noolkmvm</a>
+                </li>
+                <li class="phone"><i class="fa fa-phone fa-lg"></i>
+                    <a href="tel:79139836319">+7 913 983-63-19</a>
+                </li>
+                <li class="github"><i class="fa fa-github fa-lg"></i>
+                    <a href="https://github.com/noolkmvm" target="_blank">noolkmvm</a>
+                </li>
+                <li class="instagram"><i class="fa fa-instagram fa-lg"></i>
+                    <a href="https://www.instagram.com/worldofphil" target="_blank">worldofphil</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-wrapper">
+        <section class="navigation">
+            <label class="checkbox-ios">
+                <input type="checkbox" onclick="darkMode()">
+                <span class="checkbox-ios-switch"></span>
+                Ночной режим
+            </label>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    Выберите язык
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Русский</a></li>
+                    <li><a class="dropdown-item" href="../index.html">English</a></li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section class="section summary-section">
+            <h2 class="section-title">
+<span class="fa-stack fa-xs">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-user fa-stack-1x fa-inverse"></i>
+</span>
+                Профиль
+            </h2>
+            <div class="summary">
+                <p>Привет, я Филипп, мне 23 года. Родился в небольшом городе Купино, сейчас проживаю в Новосибирске.
+                    Закончил Сибирский государственный университет телекоммуникаций и информатики по профилю бакалавр в
+                    области программного обеспечения вычислительной техники и автоматизированных систем.</p>
+            </div>
+        </section>
+        <section class="section experiences-section">
+            <h2 class="section-title">
+<span class="fa-stack fa-xs">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+</span>
+                Опыт
+            </h2>
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Backend Developer</h3>
+                        <div class="time">2021 - Настоящее время</div>
+                    </div>
+                    <div class="company">MetaCPA, Нововсибирск</div>
+                </div>
+                <div class="details">
+                    <p>Разработка и сопровождение программного обеспечения для автоматизации внутренних процессов
+                        компании.</p>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>Yii 2</li>
+                        <li>MySQL</li>
+                        <li>Redis</li>
+                        <li>Python</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Backend PHP Developer</h3>
+                        <div class="time">2020 - 2021</div>
+                    </div>
+                    <div class="company">Bronevik, Новосибирск</div>
+                </div>
+                <div class="details">
+                    <p>Разработка нового функционала, исправление багов, разработка и сопровождение API,
+                        написание документации API.</p>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Symphony 4</li>
+                        <li>MySQL</li>
+                        <li>Mongo DB</li>
+                        <li>Open API</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="skills-section section">
+            <h2 class="section-title">
+<span class="fa-stack fa-xs">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+</span>
+                Навыки
+            </h2>
+            <div class="skillset">
+                <div class="item">
+                    <h3 class="level-title">PHP</h3>
+                    <div class="level-bar">
+                        <div class="level-bar-inner" data-level="80%">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="level-title">Javascript</h3>
+                    <div class="level-bar">
+                        <div class="level-bar-inner" data-level="50%">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="level-title">Python</h3>
+                    <div class="level-bar">
+                        <div class="level-bar-inner" data-level="50%">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="level-title">HTML5 & CSS</h3>
+                    <div class="level-bar">
+                        <div class="level-bar-inner" data-level="50%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<script type="text/javascript" src="../assets/plugins/popper/popper.min.js"></script>
+<script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../assets/js/main.js"></script>
+</body>
+</html>
