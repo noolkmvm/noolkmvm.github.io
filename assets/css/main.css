@@ -211,13 +211,13 @@ p {
     justify-content: space-between;
 }
 
-.content .experiences .timeline .workplace ul {
+.content .experiences .timeline .workplace .skills ul {
     display: flex;
     flex-direction: row;
     gap: 10px
 }
 
-.content .experiences .timeline .workplace ul li {
+.content .experiences .timeline .workplace .skills ul li {
     background: #2e2e2e;
     color: white;
     padding: 5px 10px;
@@ -230,7 +230,7 @@ p {
 }
 
 @media (max-width: 1400px) {
-    .content .experiences .timeline .workplace ul li {
+    .content .experiences .timeline .workplace .skills ul li {
         padding: 5px 10px;
         font-size: 13px;
     }
@@ -246,7 +246,7 @@ p {
         line-height: 20px;
     }
 
-    .content .experiences .timeline .workplace ul li {
+    .content .experiences .timeline .workplace .skills ul li {
         padding: 5px 8px;
         font-size: 10px;
     }
@@ -273,7 +273,7 @@ p {
         font-size: 2rem;
     }
 
-    .content .experiences .timeline .workplace ul {
+    .content .experiences .timeline .workplace .skills ul {
         flex-wrap: wrap;
     }
 
